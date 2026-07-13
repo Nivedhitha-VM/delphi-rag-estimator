@@ -1,0 +1,29 @@
+# Web
+flask
+gunicorn
+
+# Data
+pandas
+pandas-gbq
+rapidfuzz==2.14.0
+
+# Google Cloud core
+google-cloud-storage
+google-cloud-firestore
+google-cloud-tasks==2.16.0
+google-cloud-run==0.13.0
+
+# Vertex AI (Matching Engine + Gemini via Vertex)
+# Pinned to 1.34.0 for a compatible proto stack
+google-cloud-aiplatform==1.34.0
+
+# Gemini public API (optional, used by some helper scripts)
+google-generativeai
+
+# Proto stack (pinned for compatibility with aiplatform 1.34.0)
+protobuf==4.23.4
+proto-plus==1.22.3
+
+# Utilities
+absl-py
+numpy
